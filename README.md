@@ -20,4 +20,4 @@
  </p>
  
  <h2>Mi pagina web!: </h2>
- [MiPaginaWeb!](https://danifcs99.github.io/Mi-Pagina-Web/)
+ https://danifcs99.github.io/Mi-Pagina-Web/
