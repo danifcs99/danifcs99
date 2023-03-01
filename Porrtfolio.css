@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Anton&family=Kanit:wght@100&family=Montserrat&family=Noto+Serif:wght@400;700&family=Roboto&display=swap');
+
+body{
+    margin: auto;
+    
+    
+}
+#imagenprincipal img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -4;
+    position: fixed;
+    
+}
+nav img{
+    margin-right: -30px;
+    width: 45px;
+    float: left;
+    position: relative;
+    left: 50px;
+    bottom: 10px;   
+}
+nav{
+    padding: 3%;
+    text-align: center;
+    font-size: 30px; 
+    font-family:'Bebas Neue', cursive;
+}
+nav a:first-child{
+    margin-left: 10px;
+}
+ nav a{
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(24, 202, 233, 0.9), rgb(24, 202, 233, 0.9));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0px 1px;
+    transition: background-size 1s;
+}
+nav a:hover{
+    background-size: 100% 2px;
+    color: rgb(24, 202, 233, 0.9);
+}
+
+
+#container p:first-child{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: xx-large;
+}
+#container p{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+}
+#container p:last-child{
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    font-size: xx-large;
+    font-family: 'Kalam', cursive;
+}
+
+#container  {
+    display: block;
+    
+    animation: hola 3s ;
+}
+@keyframes hola {
+    from{
+    transform:scale(0%)
+    }
+    to{
+        transform: scale(100%)
+    }
+}
+
+#foto img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(112, 107, 107, 0.7);
+    border-radius: 80px;
+    padding: 4px 4px;
+    margin-top: 100px;
+    animation: imgpp 3s;
+    
+}
+#foto img:hover{
+width: 180px;
+height: 180px;
+border-radius: 100px;
+transition-duration: 2s;
+background-color:  rgb(24, 202, 233, 0.9);
+}
+
+@keyframes imgpp {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(100%);
+    }
+}
+
+hr{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(24, 202, 233, 0.9);
+    color: rgba(24, 202, 233, 0.9);
+    border: 1px solid;
+}
+
+#mi h2{
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+    margin-bottom: 5%;
+}
+#mi p{
+    
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+#glass{
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+#glass:hover{
+    height:75%;
+    width: 75%;
+    background: rgba( 24, 202, 233, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 80px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    transition: 2s;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+#frase{
+    display: flex;
+}
+#lengua{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(1, 17, 37, 0.603);
+    padding: 0.5px; 
+    border-radius: 50px;
+    margin: auto;
+    
+}
+#lengua:hover{
+    transition: 1.5s;
+    border: solid 1px;
+    border-color:  rgba(24, 202, 233, 0.9);
+    filter: drop-shadow(0px 0px 0px rgba(24, 202, 233, 0.9));
+    box-shadow:0px 0px 0px 2px rgba(24, 202, 233, 0.9);
+}
+
+#lengua p{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+}
+#imglengua{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 12%;
+}
+#imglengua img{
+    width: 50px;
+    height: 50px;
+}
+
+#letras p{
+    display: inline;
+    align-items: center;
+    font-size: medium;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h2{
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+    margin-bottom: 0.5%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#imgexpp{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#experiencia{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(1, 17, 37, 0.603);
+    margin: auto;
+    padding: 0.5px; 
+    border-radius: 50px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+#experiencia:hover{
+    border: 1.5px solid;
+    border-color: rgb(0, 255, 255);
+    transition: 1.5s;
+    filter: drop-shadow(0px 0px 0px rgba(24, 202, 233, 0.9));
+    box-shadow:0px 0px 0px 2px rgba(24, 202, 233, 0.9);
+    
+}
+#imgexp{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+#imgexp img{
+    width: 120px;
+    height: 120px;
+    box-shadow: rgb(24, 202, 233, 0.7) 0px 10px 50px -10px;
+}
+#exp{
+    display: block;
+    justify-content: center;
+    margin-top: 68%;
+    margin-left: -100px;
+}
+#exp h4{
+    color: white;
+    font-size: x-large;
+    margin-left: -8px;
+}
+#exp h4:nth-child(1){
+    color: white;
+    font-size: x-large;
+    margin-left: -9px;
+}
+#grados{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#imgxp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgexpii{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 32%;
+}
+#imgexpii img{
+    width: 90px;
+    height: 90px;
+    box-shadow: rgb(24, 202, 233, 0.7) 0px 20px 50px -15px;
+}
+#expp{
+    display: block;
+    justify-content: center;
+    margin-top: 68%;
+    margin-left: -165px;
+}
+#expp h4{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    
+}
+#colegio{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#imgexpiitt{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 24%;
+}
+#imgexpiitt img{
+    width: 100px;
+    height: 100px;
+    box-shadow: rgb(24, 202, 233, 0.7) 0px 20px 50px -15px;
+}
+#exppi{
+    display: block;
+    justify-content: center;
+    margin-top: 68%;
+    margin-left: -165px;
+}
+#exppi h4{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    
+}
+
+#datos{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#datos::before{
+    content: '';
+    width: 560px;
+    height: 450px;
+    left: 20px;
+    top: -70px;
+    position: absolute;
+    background: linear-gradient(whitesmoke, rgb(24, 202, 233, 0.9));
+    animation: rotate 6s linear infinite;
+}
+#datos::after{
+   content: '';
+   position: absolute;
+   background-color: rgb(1, 17, 37);
+   inset: 5px;
+   border-radius: 30px; 
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#redespp{
+    z-index: 999999;
+    margin: auto;
+}
+#redespp a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#redespp img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    background-color: rgba(1, 17, 37);
+    margin-top: 150px;
+    width: 100%;
+    height: 150px;
+}
+#redes{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 38%;
+    margin-left: 38%;
+}
+#redes img{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left:30px ;
+    width: 35px;
+    height: 35px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+
+/*Movile*/
+
+@media (max-width: 600px){
+    header nav a{
+      display: none;  
+    }
+    nav img{
+        margin-top: -50px;
+        margin-bottom: 5%;
+        margin-right: 90%;
+        width: 50px;
+        height: 50px;
+    }
+    #container {
+        margin-top: -130px;
+    }
+    #container p:nth-child(2){
+        font-size: xxx-large;
+    }
+    #container p:last-child{
+        font-size: x-large;
+    }
+    #lengua{
+        width: 170px;
+        height: 130px;
+        background-color: rgb(1, 17, 37, 0.603);
+        padding: 0.5px; 
+        border-radius: 50px;
+        margin: auto;
+    }
+    #imglengua img{
+        width: 33px;
+        height: 33px;
+    }
+    #lengua p{
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Bebas Neue', cursive;
+    }
+    h3{
+        font-size: x-large;
+    }
+    #mi h2{
+        font-size: xx-large;
+    }
+    #mi p{
+        font-size:large;
+        font-family: 'Kalam', cursive;
+    }
+    h2{
+        font-size: xx-large;
+    }
+
+    #experiencia{
+        width: 200px;
+        height: 210px;
+        justify-content: center;
+        margin-right: 5%;
+    }
+    #imgexp img{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        margin-right: 47%;
+    }
+    #exp h4:nth-child(1){
+        color: white;
+        font-size: medium;
+        margin-left: 20%;
+    }
+    
+    #imgexpii img{
+        width: 65px;
+        height: 65px;
+        margin-right: 40%;
+    }
+
+    #expp h4{
+        font-size: medium;
+        margin-left: 33%;
+    }
+
+    #imgexpiitt img{
+        width: 65px;
+        height: 65px;
+        margin-right: 75%;
+    }
+    #exppi h4{
+        font-size: medium;
+        margin-left: 45%;
+    }
+    
+    #contacto{
+        display: flex;
+        justify-content: center;
+    }
+
+    #datos{
+        display: flex;
+        position: relative;
+        width: 350px;
+        height: 150px;
+        background-color: black;
+        border-radius: 30px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #datos::before{
+        content: '';
+        width: 250px;
+        height: 370px;
+        left: 20px;
+        top: -70px;
+        position: absolute;
+        background: linear-gradient(whitesmoke, rgb(24, 202, 233, 0.9));
+        animation: rotate 6s linear infinite;
+    }
+    #glass{
+        width: 95%; 
+        margin: auto;
+    }
+    
+    #glass:hover{
+        margin: auto;
+        width: 95%;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 1px );
+        -webkit-backdrop-filter: blur( 1px );
+        border-radius: 70px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+        transition: 0.4s;
+    }
+
+
+    
+    #redespp img{
+        width: 30px;
+        height: 30px;
+    }
+    #redes{
+        display: flex;
+        justify-content: center;
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+    #redes img{
+        width: 27px;
+        height: 27px;
+    }
+    footer p{
+        font-size: medium;
+        margin-right: 1%;
+        margin-top: 40px;
+    }
+    footer{
+        height: 140px;
+        margin-top: 120px;
+    }
+    
+    #foto img{
+        width: 110px;
+        height: 110px;
+        margin-top: 10%;
+    }
+
+}
+
+
+
+
+
