@@ -22,5 +22,5 @@
  <h2>Mi Portfolio!: </h2>
  https://danifcs99.github.io/Mi-Pagina-Web/
  
- <h2>Proyecto Video club con Java: </h2>
- 
+ <h2>Proyecto Videoclub Java: </h2>
+ https://github.com/danifcs99/Proyecto_Videoclub_Java
