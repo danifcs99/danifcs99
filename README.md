@@ -3,7 +3,7 @@
 ![gato](https://media1.giphy.com/headers/GitHub/w8ZJLtJbmuph.gif)
 
 <p align="center">
-  Soy estudiante de Desarrollo de Aplicaciones Web, en el Instituto ADAITS 
+  Soy estudiante de **Desarrollo de Aplicaciones Web**, en el Instituto ADAITS 
  </p>
 
 <h2>Tecnologías: </h2>
