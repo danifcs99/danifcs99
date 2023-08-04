@@ -2,7 +2,7 @@
 
 ![gato](https://media1.giphy.com/headers/GitHub/w8ZJLtJbmuph.gif)
 
-<p>
+<p align="center">
   Soy estudiante de Desarrollo de Aplicaciones Web, en el Instituto ADAITS 
  </p>
 
