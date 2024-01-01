@@ -12,9 +12,7 @@
  </p>
 
 <h2>Mi Portfolio!: </h2>
+https://portfolio-danifcs99.netlify.app
 https://danifcs99.github.io/Mi-Portfolio/
-
-<h2>New Portfolio!</h2>
-https://portfolio-danifcs99.netlify.app/
 
  
